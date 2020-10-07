@@ -126,3 +126,19 @@ footer{
 	margin-top:50px;
 	padding-top:20px;
 }
+
+
+/*Media*/
+
+@media screen and (min-width: 600px) {
+	.card{
+		width:30%;
+		
+	}
+
+	.title-text{
+		margin-left:100px;
+		margin-right: 100px;
+		
+		}
+  }
