@@ -12,6 +12,7 @@ background-color:#f0f2f5;
 .container{
 	margin-top: 20px;
 	margin-left:20px;
+	
 }
 
 .card{
@@ -34,7 +35,6 @@ margin-top:180px;
 	  font-weight: 900;
 }
 
-
 .title-p{
 	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
     font-size: 25px;
@@ -51,6 +51,7 @@ margin-top:180px;
 	border-radius:5px;
 	padding-bottom: 30px;
 	padding-right:5px;
+	
 }
 
 input{
@@ -60,18 +61,33 @@ input{
 	border-radius:6px;
 	border:1px solid #dddfe2;
 }
+
 .btn-login{
-	background-color: #166FE5;
+	background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+
 	padding: 14px 16px;
 	width: 340px;
 	font-size: 20px;
 	color:#fff;
 	border-radius: 6px;
 	border: none;
+	transition-property:color,background, border-radius;
+	transition-duration:  .5s;
+	transition-timing-function: linear;
+	transition-delay: .1s;
 	
 }
 
-.forgot {
+.btn-login:hover{
+	
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, 
+	rgba(253,29,29,1) 50%,
+	rgba(252,176,69,1) 
+	100%);
+	border-radius: 100px;
+}
+
+.forgot{
 	text-align:center;
 	
 }
@@ -95,4 +111,17 @@ input{
 
 .page{
 	text-align: center;
+}
+
+.clearfix{
+  clear: both;
+}
+
+footer{
+	height:60px;
+	width:100%;
+	background-color: #fff;
+	text-align:center;
+	margin-top:50px;
+	padding-top:20px;
 }
