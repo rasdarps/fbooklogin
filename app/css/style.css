@@ -129,16 +129,69 @@ footer{
 
 
 /*Media*/
+@media (min-width: 360px) {
 
-@media screen and (min-width: 600px) {
+	
 	.card{
-		width:30%;
-		
+		width:15%;
 	}
 
 	.title-text{
-		margin-left:100px;
-		margin-right: 100px;
+		margin-left:0px;
+		margin-right:0px;
+		padding:0px 0px 0px 0px;
 		
 		}
-  }
+
+	.title{
+		font-size: 25px;
+		margin-left:0px;
+		margin-right:0px;
+		padding:0px 0px 0px 0px;
+	}
+
+	.title-p{
+		font-size: 20px;
+	}	
+
+}
+
+@media (min-width: 768px) {
+
+	
+	.title-text{
+		margin-left:190px;
+		margin-right: 190px;
+		
+		
+		}
+
+		
+
+}
+
+@media (min-width: 992px) {
+
+	
+	.title-text{
+		margin-left:190px;
+		margin-right: 190px;
+		
+		}
+
+		
+
+}
+
+@media (min-width: 1200px) {
+
+	
+	.title-text{
+		margin-left:190px;
+		margin-right: 190px;
+		
+		}
+
+		
+
+}
